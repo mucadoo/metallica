@@ -13,7 +13,7 @@ require_once("controller/Actions.php");
 //Include Page
 $page = isset($_GET["page"]) ? $_GET["page"] : "home";
 include "view/header.php";
-$page = "view/" . str_replace("-", "/", $page) . ".php";
+$page = "view/" . str_replace("-", "_", $page) . ".php";
 if (file_exists($page)) {
     include $page;
 } else {

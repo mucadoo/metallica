@@ -7,17 +7,17 @@
     <title>Metallica Brazil</title>
     <?php
     if (strpos($page, "biografia") !== false) {
-        $css = "biography";
+        $css = "biografia";
     } else if (strpos($page, "contato") !== false || strpos($page, "cadastro") !== false || strpos($page, "post") !== false) {
-        $css = "contact";
+        $css = "contato";
     } else if (strpos($page, "shows") !== false) {
         $css = "shows";
     } else if (strpos($page, "artigos") !== false) {
-        $css = "articles";
+        $css = "artigos";
     } else if (strpos($page, "discografia") !== false) {
-        $css = "discography";
+        $css = "discografia";
     } else {
-        $css = "general";
+        $css = "geral";
     }
     ?>
     <link rel="stylesheet" href="<?= BASE_URL ?>/style/<?= $css ?>.css">
@@ -47,21 +47,21 @@
         <ul>
             <li><a href="#">BIOGRAPHY</a>
                 <ul class="dropdown">
-                    <li><a href="<?= BASE_URL ?>/biografia_banda/">Band</a></li>
-                    <li><a href="<?= BASE_URL ?>/biografia_integrantes/">Members</a></li>
+                    <li><a href="<?= BASE_URL ?>/biografia-banda/">Band</a></li>
+                    <li><a href="<?= BASE_URL ?>/biografia-integrantes/">Members</a></li>
                 </ul></li>
             <li><a href="#">DISCOGRAPHY</a>
                 <ul class="dropdown">
-                    <li><a href="<?= BASE_URL ?>/discografia-kill_em_all/">Kill 'em all</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-ride_the_lightning/">Ride the Lightning</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-master_of_puppets/">Master of Puppets</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-and_justice_for_all/">And Justice for All</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-black/">Metallica (Black Album)</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-load/">Load</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-reload/">Reload</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-garage/">Garage</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-st_anger/">St. Anger</a></li>
-                    <li><a href="<?= BASE_URL ?>/discografia-death_magnetic/">Death Magnetic</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/kill-em-all/">Kill 'em all</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/ride-the-lightning/">Ride the Lightning</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/master-of-puppets/">Master of Puppets</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/and-justice-for-all/">And Justice for All</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/black/">Metallica (Black Album)</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/load/">Load</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/reload/">Reload</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/garage/">Garage</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/st-anger/">St. Anger</a></li>
+                    <li><a href="<?= BASE_URL ?>/discografia/death-magnetic/">Death Magnetic</a></li>
                 </ul>
             </li>
             <li><a href="<?= BASE_URL ?>/shows/">TOUR DATES</a></li>
