@@ -41,18 +41,15 @@ CREATE TABLE `artigo`
 -- Dumping data for table `artigo`
 --
 
-LOCK
-TABLES `artigo` WRITE;
+LOCK TABLES `artigo` WRITE;
 /*!40000 ALTER TABLE `artigo` DISABLE KEYS */;
 INSERT INTO `artigo`
-VALUES (1, 'Show do Metallica tem fãs no palco, falhas no som e interrupção', 'img_post.jpg', 1, '2015-11-06 17:42:21'),
-       (2, 'Kirk Hammet perdeu celular com 250 ideias', 'hammet1.jpg', 1, '2015-11-06 17:42:21'),
-       (3, 'Hammett: Material novo é um pouco mais progressivo que Lords of Summer', 'hammet.jpg', 1,
-        '2015-11-06 17:50:20'),
-       (4, 'Stone Sour lança cover de \"Creeping Death\", do Metallica', 'stonesour.jpg', 1, '2015-11-06 17:57:25');
+VALUES (1, 'Metallica concert has fans on stage, sound failures and interruptions', 'img_post.jpg', 1, '2015-11-06 17:42:21'),
+       (2, 'Kirk Hammet lost cell phone with 250 ideas', 'hammet1.jpg', 1, '2015-11-06 17:42:21'),
+       (3, 'Hammett: New material is a bit more progressive than Lords of Summer', 'hammet.jpg', 1, '2015-11-06 17:50:20'),
+       (4, 'Stone Sour releases cover of "Creeping Death" by Metallica', 'stonesour.jpg', 1, '2015-11-06 17:57:25');
 /*!40000 ALTER TABLE `artigo` ENABLE KEYS */;
-UNLOCK
-TABLES;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `comentario`
@@ -84,12 +81,12 @@ LOCK
 TABLES `comentario` WRITE;
 /*!40000 ALTER TABLE `comentario` DISABLE KEYS */;
 INSERT INTO `comentario`
-VALUES (12, 'então você é o bichão?', 2, 1, '2015-11-06 17:43:14'),
+VALUES (12, 'so you are the big shot?', 2, 1, '2015-11-06 17:43:14'),
        (16, 'my good', 1, 1, '2015-11-06 17:43:14'),
-       (17, 'moleque', 1, 1, '2015-11-06 17:43:14'),
-       (18, 'seus borra', 1, 2, '2015-11-06 17:43:14'),
-       (19, 'haha sou joao krl', 1, 3, '2015-11-06 17:43:14'),
-       (20, 'estou testando moleque', 1, 5, '2015-11-06 17:43:14');
+       (17, 'kid', 1, 1, '2015-11-06 17:43:14'),
+       (18, 'you cowards', 1, 2, '2015-11-06 17:43:14'),
+       (19, 'haha I am John dammit', 1, 3, '2015-11-06 17:43:14'),
+       (20, 'I am  testingkid', 1, 5, '2015-11-06 17:43:14');
 /*!40000 ALTER TABLE `comentario` ENABLE KEYS */;
 UNLOCK
 TABLES;
@@ -135,7 +132,7 @@ TABLES `nivel` WRITE;
 INSERT INTO `nivel`
 VALUES (1, 'Super Admin'),
        (2, 'Admin'),
-       (3, 'Comum');
+       (3, 'Common');
 /*!40000 ALTER TABLE `nivel` ENABLE KEYS */;
 UNLOCK
 TABLES;
@@ -168,79 +165,79 @@ TABLES `paragrafo` WRITE;
 /*!40000 ALTER TABLE `paragrafo` DISABLE KEYS */;
 INSERT INTO `paragrafo`
 VALUES (1, 1,
-        'Encarregado de encerrar a segunda noite do Rock in Rio 2015, o Metallica passou por apuros neste sábado (19) no Palco Mundo. Após um apagão no som dos instrumentos de todos os integrantes, a banda teve de sair do palco e interromper o show por cerca de cinco minutos, durante a execução de \"Ride the Lightning\"',
+        'Responsible for closing the second night of Rock in Rio 2015, Metallica faced troubles this Saturday (19) on the Palco Mundo stage. After a blackout affecting the sound of all the band members'' instruments, they had to leave the stage and interrupt the show for about five minutes during the performance of "Ride the Lightning"',
         1),
        (2, 2,
-        'Após a primeira de três falhas, o grupo chegou a continuar o show, mas, após um solo do guitarrista Kirk Hammet, não teve jeito: o Rock in Rio 2015 ouviu suas primeiras vaias, várias delas endereçadas a Roberto Medina, criador do festival.',
+        'After the first of three failures, the group continued the show, but after a solo by guitarist Kirk Hammet, the Rock in Rio 2015 heard its first boos, many of them directed at Roberto Medina, the festival''s creator.',
         1),
        (3, 3,
-        'Resolvido o problema, o vocalista e guitarrista James Hetfield voltou com a clássica \"The Unforgiven\", que fez o público esquecer os momentos de tensão. No palco, o Metallica foi profissional. Não reclamou nem comentou sobre o ocorrido, uma das maiores falhas do sistema de som na história do evento. Segundo nota divulgada pela assessoria do Rock in Rio, a parada ocorreu pela \"desconexão da linha de saída de som entre a mesa da banda e a do festival\".',
+        'Once the problem was resolved, vocalist and guitarist James Hetfield returned with the classic "The Unforgiven," which made the audience forget the moments of tension. On stage, Metallica was professional. They didn''t complain or comment about what happened, one of the biggest sound system failures in the event''s history. According to a statement from the Rock in Rio press office, the interruption was due to a "disconnection of the sound output line between the band''s console and the festival''s console".',
         1),
        (4, 4,
-        'Alheios ao problema, o Metallica entregou seu tradicional show retrospectivo, com faixas de todos os álbuns da carreira --e atraso de 45 minutos, repetindo a demora do Queen no último sábado.',
+        'Despite the problem, Metallica delivered its traditional retrospective show, featuring songs from all their albums—and a 45-minute delay, repeating the delay by Queen last Saturday.',
         1),
        (5, 5,
-        'O show é o terceiro consecutivo da banda na edição brasileira do Rock in Rio. Roteiros parecidos. Energia vinda da plateia, idem. Se o Metallica parece fazer sempre a mesma apresentação no país, é impossível dizer que a estratégia não funciona.',
+        'This is the band''s third consecutive performance at the Brazilian edition of Rock in Rio. Similar setlists. Energy from the audience, the same. If Metallica always seems to give the same performance in the country, it''s impossible to say the strategy doesn''t work.',
         1),
        (6, 6,
-        'O diferencial da vez foi o contato mais próximo com o público. De cima do palco, dezenas de fãs convidados acompanharam de perto o grupo, numa releitura improvisada de seu antigo \"snake pit\" --espaço utilizado na turnê do álbum \"Metallica\" (1991), conhecido também como \"Black Album\".',
+        'The difference this time was the closer contact with the audience. From the stage, dozens of invited fans closely followed the group, in an improvised reenactment of their old "snake pit"—a space used on the "Metallica" tour (1991), also known as the "Black Album".',
         1),
        (7, 7,
-        'A execução de \"One\", do álbum \"…and Justice for All\" (1988), foi o primeiro ápice do show, registrada por um cardume de telefones celulares em meio a fumaça cênica. Tempos modernos. Mesmo sem a clássica \"Creeping Death\" no setlist, os fãs da década de 1980 não tiveram muito do que reclamar com a trinca \"Master of Puppets\", \"Fade to Black\" e \"Seek & Destroy\"',
+        'The performance of "One" from the album "...and Justice for All" (1988) was the first highlight of the show, recorded by a school of cell phones amidst the scenic smoke. Modern times. Even without the classic "Creeping Death" on the setlist, 1980s fans had little to complain about with the trio "Master of Puppets," "Fade to Black," and "Seek & Destroy"',
         1),
        (8, 8,
-        'O show teve ainda a volta de \"Whiskey in the Jar\" ao repertório, dedicada Cliff Burton, antigo baixista da banda que morreu em 1986 --a música, que é uma canção tradicional irlandesa, foi tocada pela primeira vez no Brasil no ano passado, na turnê \"Metallica By Request\".',
+        'The show also featured the return of "Whiskey in the Jar" to the repertoire, dedicated to Cliff Burton, the band''s former bassist who died in 1986—this traditional Irish song was played for the first time in Brazil last year on the "Metallica By Request" tour.',
         1),
        (9, 9,
-        'Ao fim, fogos de artifício em \"Enter Sandman\", cantada em uníssono, e a promessa que alentou quem já se cansou da mesmice do Metallica: a próxima vinda ao Brasil será com um novo disco de estúdio. Agora, hora de férias para a banda, que deixou para o Rio de Janeiro ser a casa do último show do grupo neste ano.',
+        'At the end, fireworks during "Enter Sandman," sung in unison, and the promise that cheered those tired of Metallica''s sameness: the next visit to Brazil will be with a new studio album. Now, it''s vacation time for the band, which left Rio de Janeiro to be the home of their last show of the year.',
         1),
        (10, 1,
-        'Kirk Hammett, guitarrista do Metallica, revelou nesta terça-feira (21) que perdeu seu telefone celular há seis meses com 250 riffs para o próximo disco. As informações são do site da revista \"NME\".',
+        'Kirk Hammett, Metallica''s guitarist, revealed this Tuesday (21) that he lost his cell phone six months ago with 250 riffs for the next album. The information comes from the "NME" magazine website.',
         2),
        (11, 2,
-        '\"Eu perdi meu iPhone com 250 ideias musicais. Fiquei arrasado. Eu não tinha feito backup. Quando aconteceu, eu fiquei chateado por dois ou três dias... Ainda estou procurando por ele\", disse, em entrevista ao Jasta Show podcast. Hammett também disse que só consegue se lembrar de oito dos 250 riffs de guitarra, lembrando seus colegas: \"Todos vocês músicos por aí que usam o telefone, verifiquem se fizeram o backup, certo?\".',
+        '"I lost my iPhone with 250 musical ideas. I was devastated. I hadn''t backed it up. When it happened, I was upset for two or three days... I''m still looking for it," he said in an interview with the Jasta Show podcast. Hammett also said he only remembers eight of the 250 guitar riffs, reminding his colleagues: "All you musicians out there who use your phone, make sure you back it up, right?"',
         2),
        (12, 3,
-        'A banda está trabalhando no álbum sucessor de \"Death Magnetic\", de 2008. Segundo o guitarrista, 25% do disco está pronto. \"O material que está chegando é super-riffy, super pesado... Eu diria que é muito semelhante ao \'Death Magnetic\', mas diferente em algumas partes. James [Hetfield, vocalista] está fazendo um monte de melodias realmente muito interessantes, uma série de camadas vocais.\"',
+        'The band is working on the successor album to "Death Magnetic" from 2008. According to the guitarist, 25% of the album is ready. "The material coming in is super-riffy, super heavy... I would say it''s very similar to ''Death Magnetic,'' but different in some parts. James [Hetfield, vocalist] is doing a lot of really interesting melodies, a series of vocal layers."',
         2),
        (13, 4,
-        'O Metallica se apresenta dia 19 de setembro no Rock in Rio 2015, no Palco Mundo, por onde também vão passar Slipknot, Faith no More, Queens of the Stone Age e outros grupos de rock.',
+        'Metallica will perform on September 19 at Rock in Rio 2015 on the Palco Mundo stage, where Slipknot, Faith no More, Queens of the Stone Age, and other rock groups will also perform.',
         2),
        (14, 5,
-        'Com a presença garantida no Rock in Rio deste ano, o Metallica irá participar pela terceira vez seguida do festival. Antes, o grupo esteve no Rio de Janeiro em 2011 e 2013. Em sua última passagem pelo Brasil, em março de 2014, a banda fez um show em São Paulo com o setlist escolhido pelos próprios fãs por meio de votação.',
+        'With their confirmed presence at this year''s Rock in Rio, Metallica will participate for the third consecutive time in the festival. Before, the group was in Rio de Janeiro in 2011 and 2013. In their last visit to Brazil, in March 2014, the band performed in São Paulo with a setlist chosen by the fans themselves through a vote.',
         2),
        (15, 1,
-        'O guitarrista do Metallica, Kirk Hammett, falou que o material que a banda tem escrito para o próximo álbum \"é um pouco mais progressivo\" que a música \"Lords of Summer\", que foi tocada pela primeira vez mais de um ano atrás no primeiro show da turnê sul americana.',
+        'Metallica guitarist Kirk Hammett said the material the band has written for the next album "is a bit more progressive" than the song "Lords of Summer," which was played for the first time more than a year ago at the first show of the South American tour.',
         3),
        (16, 2,
-        'Durante uma aparição ontem (14 de Abril) no Liquid Metal da SiriusXM, Hammett falou sobre o progresso das sessões de composição do sucessor do disco \"Death Magnetic\", de 2008: \"Eu diria que algumas das coisas [que escrevemos] é similar a \'Lords of Summer\'. \'Lords of Summer\' é bem acessível, pois eu acho que é um dos riffs com som mais acessível e há um melodia bem legal. Muito do restante do material é um pouco mais progressivo - meio que nas linhas do que o \'Death Magnetic\' acabou sendo.\"',
+        'During an appearance yesterday (April 14) on SiriusXM''s Liquid Metal, Hammett spoke about the progress of the writing sessions for the successor album to "Death Magnetic" from 2008: "I would say some of the things [we wrote] are similar to ''Lords of Summer.'' ''Lords of Summer'' is very accessible because I think it has one of the most accessible-sounding riffs and there''s a really cool melody. Much of the rest of the material is a bit more progressive—kind of along the lines of what ''Death Magnetic'' ended up being."',
         3),
        (17, 3,
-        'Ele continuou: \"Eu diria que há algumas coisas bem cativantes vindo, e eu estou bem animado da direção que as coisas estão soando. Se eu pudesse comparar com alguma coisa, talvez fosse remotamente parecido com o approach que tivemos no \'...And Justice For All\', mas ele não soa como o \'...And Justice For All\' - ele não tem aquele som que o \'...And Justice For All\' tinha, o que eu achei que foi bem único na época.\"',
+        'He continued: "I would say there are some very catchy things coming, and I''m very excited about the direction things are sounding. If I could compare it to something, maybe it''s somewhat similar to the approach we took on ''...And Justice For All,'' but it doesn''t sound like ''...And Justice For All''—it doesn''t have that sound that ''...And Justice For All'' had, which I thought was very unique at the time."',
         3),
        (18, 4,
-        'Hammett acrescentou: \"Eu ouço muitas bandas de metal hoje, e há bandas que realmente gostam daquele som do \'...And Justice For All\' e buscam isso. E legal, cara. Digo, eles estão fazendo melhor do que fizemos, pois você pode ouvir o baixo.\"',
+        'Hammett added: "I hear a lot of metal bands today, and there are bands that really like that sound from ''...And Justice For All'' and seek it out. And it''s cool, man. I mean, they''re doing better than we did because you can hear the bass."',
         3),
        (19, 5,
-        'Kirk também falou sobre como ele encontra inspiração e motivação para gravar um disco novo do Metallica atualmente. Ele disse: \"É o que sempre faço. Eu sempre volto para as coisas que me influenciaram quando era mais novo e comecei a sair, pois essas coisas ainda são inspiradoras. E então eu olho em volta e vejo o que está rolando atualmente, e como as bandas estão soando atualmente, pois eu sempre estou curioso.\"',
+        'Kirk also talked about how he finds inspiration and motivation to record a new Metallica album nowadays. He said: "It''s what I always do. I always go back to the things that influenced me when I was younger and started out because those things are still inspiring. And then I look around and see what''s going on currently, and how bands sound currently because I''m always curious."',
         3),
        (20, 6,
-        'E continou: \"O que eu faço é mais olhar o que está rolando e eu gosto de ver como nosso som se encaixa no que está rolando. É realmente apenas uma coisa do dia a dia. Eu ligo o rádio e começo a ouvir as estações. E se eu ouvir uma trecho de música que eu acho que é particularmente interessante, então ouvirei e talvez ouvirei e pegarei algo e pensarei, \'Uau! Essa é uma melodia bem boa. Talvez eu devesse aplicar isso a este pedaço de solo\'. E pode ser qualquer tipo de música - pode ser rock, pode ser heavy metal, reggae... Qualquer coisa. E eu usarei isso talvez como ponto inicial para criar algo diferente.\"',
+        'And he continued: "What I do is more about seeing what''s going on and I like to see how our sound fits into what''s going on. It''s really just a day-to-day thing. I turn on the radio and start listening to the stations. And if I hear a music snippet that I think is particularly interesting, then I''ll listen to it and maybe I''ll listen and pick something up and think, ''Wow! That''s a really good melody. Maybe I should apply that to this part of a solo.'' And it can be any kind of music—it can be rock, it can be heavy metal, reggae... Anything. And I''ll use that maybe as a starting point to create something different."',
         3),
        (21, 1,
-        'A banda Stone Sour disponibilizou sua cover para “Creeping Death”, música do Metallica lançada originalmente no disco Ride The Lightning, de 1984.',
+        'The band Stone Sour made available their cover of "Creeping Death," a song by Metallica originally released on the Ride The Lightning album, from 1984.',
         4),
        (22, 2,
-        'O som faz parte de um EP do grupo que ainda terá covers de Alice In Chains, Judas Priest, KISS e Black Sabbath.',
+        'The song is part of an EP by the group that will also feature covers of Alice In Chains, Judas Priest, KISS, and Black Sabbath.',
         4),
        (23, 3,
-        'Corey Taylor, vocalista do Slipknot e do Stone Sour, disse que essas covers sempre foram algo que o grupo quis fazer, desde o começo da carreira em 1992, mesmo com a troca de integrantes.',
+        'Corey Taylor, vocalist for Slipknot and Stone Sour, said these covers have always been something the group wanted to do since the beginning of their career in 1992, even with the change of members.',
         4),
        (24, 4,
-        'Você pode ouvir a versão de “Creeping Death” logo abaixo. O EP será lançado oficialmente no dia 18 de Abril, Record Store Day, em vinil.',
+        'You can listen to the version of "Creeping Death" below. The EP will be officially released on April 18, Record Store Day, on vinyl.',
         4),
        (25, 5,
-        '<iframe width=\"620\" height=\"349\" src=\"https://www.youtube.com/embed/3HFaUoulmx4?feature=oembed\" frameborder=\"0\" allowfullscreen=\"\"></iframe>',
+        '<iframe width="620" height="349" src="https://www.youtube.com/embed/3HFaUoulmx4?feature=oembed" frameborder="0" allowfullscreen=""></iframe>',
         4);
 /*!40000 ALTER TABLE `paragrafo` ENABLE KEYS */;
 UNLOCK
@@ -280,7 +277,7 @@ VALUES (1, 'mucadoo', 'Samuel', '1234', 'samuelgiordano@live.com', 1, '2015-11-0
        (2, 'eduardo', 'Eduardo', '1234', 'eduardo@gmail.com', 1, '2015-11-06 17:44:32'),
        (3, 'joaozinho', 'João', 'joaozin', 'joao@ig.com', 3, '2015-11-06 17:44:32'),
        (4, 'mariazinha', 'Maria', 'mariazin', 'maria@ig.com', 3, '2015-11-06 17:44:32'),
-       (5, 'teste', 'Teste', 'teste', 'teste@bol.com', 3, '2015-11-06 17:44:32');
+       (5, 'test', 'Test', 'test', 'teste@bol.com', 3, '2015-11-06 17:44:32');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK
 TABLES;

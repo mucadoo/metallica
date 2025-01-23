@@ -1,35 +1,25 @@
-		<section>
-		<article>
-		<header class="head">
-		<h1>Kill'em All (1983)</h1>
-		<h2>Produzido por: Paul Curcio</h2>
-		</header>
-		<img src="<?= BASE_URL ?>/media/discografia/killemall.jpg" class="album">
-		<p class="paragrafo">Faixas:<br><br>
-		01. Hit The Lights<br>
-02. The Four Horsemen<br>
-03. Motorbreath<br>
-04. Jump In The Fire<br>
-05. (Anesthesia) - Pulling Teeth<br>
-06. Whiplash<br>
-07. Phantom Lord<br>
-08. No Remorse<br>
-09. Seek & Destroy<br>
-10. Metal Militia<br><br><br><br>
-Lançado pouco tempo depois de dispensar o guitarrista Dave Mustaine (que mais tarde formaria o MEGADETH) por abusos com o álcool e 
-recrutar Kirk Hammett para o seu lugar, “Kill ‘Em All” é o álbum de estréia do METALLICA. A principio era para se chamar “Metal Up 
-Your Ass”, mas a gravadora achou muito ofensivo e pediu para que fosse mudado. Então escolheram o atual nome porque era o que tinham 
-vontade de fazer com o pessoal da gravadora, “matar todos”. Além do já citado Kirk Hammett, completavam a banda James Hetfield (guitarra e vocal), 
-Cliff Burton (baixo) e Lars Ulrich (bateria).<br><br>
-“Kill ‘Em All” é um dos álbuns mais agressivos da carreira da banda. Todas as músicas são velozes e furiosas. James, ainda um garoto, 
-gritava as letras ao microfone, enquanto a banda despejava riffs e viradas instrumentais. Era como uma mistura entre a energia e velocidade
- do Punk Rock com o peso e a técnica do Heavy Metal.<br><br>
-Todas as músicas neste disco têm a mesma qualidade. Mas podemos destacar as clássicas “The Four Horsemen”, “Motorbreath”, “Seek & Destroy”,
- o hino Thrash “Whiplash” e a velocíssima “Metal Militia”. Além delas, também merece menção “(Anesthesia)-Pulling Teeth”, que se trata de 
- um solo de baixo de Cliff Burton.<br><br>
-Apesar de sua produção mediana, a importância deste álbum é das maiores. Além de ser um dos discos preferidos para muitos fãs da banda, 
-pode ser considerado junto a “Show No Mercy” do SLAYER, lançado quase simultaneamente, como divisor de águas do Heavy Metal, criando um
- novo estilo que passou a ser chamado de Thrash Metal.<br><br>
-	</article>
-	</section>
-	
+<section>
+    <article>
+        <header class="head">
+            <h1>Kill 'Em All (1983)</h1>
+            <h2>Produced by: Paul Curcio</h2>
+        </header>
+        <img src="<?= BASE_URL ?>/media/discografia/killemall.jpg" class="album">
+        <p class="paragrafo">Tracks:<br><br>
+            01. Hit The Lights<br>
+            02. The Four Horsemen<br>
+            03. Motorbreath<br>
+            04. Jump In The Fire<br>
+            05. (Anesthesia) - Pulling Teeth<br>
+            06. Whiplash<br>
+            07. Phantom Lord<br>
+            08. No Remorse<br>
+            09. Seek & Destroy<br>
+            10. Metal Militia<br><br><br><br>
+            Released shortly after firing guitarist Dave Mustaine (who later formed MEGADETH) for alcohol abuse and recruiting Kirk Hammett to replace him, “Kill 'Em All” is METALLICA's debut album. Initially, it was supposed to be called “Metal Up Your Ass,” but the label found it too offensive and asked for a change. They then chose the current name because it expressed what they wanted to do to the record label staff, "kill 'em all." Besides the already mentioned Kirk Hammett, the band was completed by James Hetfield (guitar and vocals), Cliff Burton (bass), and Lars Ulrich (drums).<br><br>
+            “Kill 'Em All” is one of the band's most aggressive albums. All the songs are fast and furious. James, still a young man, screamed the lyrics into the microphone while the band unleashed riffs and instrumental turns. It was like a mix of the energy and speed of Punk Rock with the weight and technique of Heavy Metal.<br><br>
+            All the songs on this album have the same quality. But we can highlight the classics “The Four Horsemen,” “Motorbreath,” “Seek & Destroy,” the Thrash anthem “Whiplash,” and the extremely fast “Metal Militia.” In addition, “(Anesthesia)-Pulling Teeth,” a bass solo by Cliff Burton, also deserves mention.<br><br>
+            Despite its average production, the importance of this album is immense. Besides being one of the favorite albums for many fans of the band, it can be considered, along with SLAYER's “Show No Mercy,” released almost simultaneously, as a watershed moment in Heavy Metal, creating a new style that came to be called Thrash Metal.<br><br>
+        </p>
+    </article>
+</section>

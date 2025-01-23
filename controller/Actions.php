@@ -24,7 +24,7 @@ if (isset($_POST['comTexto'])) {
     require_once("model/ComentarioDAO.class.php");
     $comDAO = new ComentarioDAO();
     $comDAO->InsertComentario($_POST['comTexto'], $_POST['artigo_id'], $sessUsr->getId());
-    $msg = "Comentário enviado com sucesso";
+    $msg = "Comment successfully sent";
 }
 
 //Edita Comentário
@@ -32,7 +32,7 @@ if (isset($_POST['actionCom']) && $_POST['actionCom'] == "editar") {
     require_once("model/ComentarioDAO.class.php");
     $comDAO = new ComentarioDAO();
     $comDAO->updateComentario($_POST['id'], $_POST['texto']);
-    $msg = "Comentário atualizado!";
+    $msg = "Comment updated!";
 }
 
 //Exclui Comentário
@@ -40,7 +40,7 @@ if (isset($_POST['actionCom']) && $_POST['actionCom'] == "excluir") {
     require_once("model/ComentarioDAO.class.php");
     $comDAO = new ComentarioDAO();
     $comDAO->excluiComentario($_POST['id']);
-    $msg = "Comentário excluído!";
+    $msg = "Comment deleted!";
 }
 
 //Cria Usuário
@@ -48,7 +48,7 @@ if (isset($_POST['actionUsr']) && $_POST['actionUsr'] == "cadastrar" && isset($_
     require_once("model/UsuarioDAO.class.php");
     $usrDAO = new UsuarioDAO();
     $usrDAO->insertUsuario($_POST['cadNome'], $_POST['cadLogin'], $_POST['cadEmail'], $_POST['cadSenha']);
-    $msg = "Usuário cadastrado!";
+    $msg = "User registered!";
     $url = BASE_URL;
 }
 
@@ -57,7 +57,7 @@ if (isset($_POST['actionUsr']) && $_POST['actionUsr'] == "editar" && isset($_POS
     require_once("model/UsuarioDAO.class.php");
     $usrDAO = new UsuarioDAO();
     $usrDAO->atualizaUsuario($_POST['cadNome'], $_POST['cadLogin'], $_POST['cadEmail'], $_POST['cadSenha'], $sessUsr->getId());
-    $msg = "Dados atualizados!";
+    $msg = "Data updated!";
     $sessUsr = Session::updSession($sessUsr->getId());
     $url = BASE_URL;
 }
@@ -76,5 +76,5 @@ if (isset($_POST['postNome']) && isset($_POST['p1']) && isset($_FILES['postImg']
         $parDAO->insertParagrafo($nrPar, $_POST['p' . $nrPar], $artId);
         $nrPar++;
     }
-    $msg = "Artigo postado!";
+    $msg = "Article posted!";
 }

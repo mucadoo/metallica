@@ -1,25 +1,25 @@
 <aside>
     <?php if (isset($sessUsr)) { ?>
-        <h1>Bem vindo, <?= $sessUsr->getNome() ?></h1>
+        <h1>Welcome, <?= $sessUsr->getNome() ?></h1>
         <form action="" method="post">
             <input type="hidden" name="sair" value="true">
-            <input type="submit" value="Sair">
+            <input type="submit" value="Logout">
         </form>
-        <p><a href="<?= BASE_URL ?>/cadastro/">Atualize seus dados</a></p>
-        <p><a href="<?= BASE_URL ?>/postar/">Postar artigo</a></p>
+        <p><a href="<?= BASE_URL ?>/cadastro/">Update your data</a></p>
+        <p><a href="<?= BASE_URL ?>/postar/">Post article</a></p>
     <?php } else { ?>
-        <h1>Entrar</h1>
+        <h1>Login</h1>
         <form action="" method="post">
             <input type="text" name="login" placeholder="Login" required><br><br>
-            <input type="password" name="senha" placeholder="Senha" required><br><br>
-            <input type="submit" value="Entrar">
+            <input type="password" name="senha" placeholder="Password" required><br><br>
+            <input type="submit" value="Login">
         </form>
-        <p><a href="<?= BASE_URL ?>/cadastro/">Ainda não é usuário?</a></p>
-    <?php } ?>        
-    <h1>Buscar Artigo</h1>
+        <p><a href="<?= BASE_URL ?>/cadastro/">Not a user yet?</a></p>
+    <?php } ?>
+    <h1>Search Article</h1>
     <form action="<?= BASE_URL ?>" method="get">
-        <input type="search" name="q" placeholder="Buscar" style="width:100%" required><br><br>
-        <input type="submit" value="Buscar">
+        <input type="search" name="q" placeholder="Search" style="width:100%" required><br><br>
+        <input type="submit" value="Search">
     </form>
     <h1 style="left:10px;font-family:palatino linotype;">Networking</h1>
     <article id="artic">

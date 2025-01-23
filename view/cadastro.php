@@ -1,18 +1,18 @@
 <?php
 if (isset($sessUsr)) {
-    $title = "Atualizar Dados";
-    $subtitle = "Atualize seus dados";
-    $action = "editar";
-    $actText = "Atualizar";
+    $title = "Update Data";
+    $subtitle = "Update your data";
+    $action = "edit";
+    $actText = "Update";
     $nome = $sessUsr->getNome();
     $login = $sessUsr->getLogin();
     $email = $sessUsr->getEmail();
     $senha = $sessUsr->getSenha();
 } else {
-    $title = "Cadastro";
-    $subtitle = "Cadastre-se";
-    $action = "cadastrar";
-    $actText = "Cadastrar";
+    $title = "Register";
+    $subtitle = "Register";
+    $action = "register";
+    $actText = "Register";
     $nome = "";
     $login = "";
     $email = "";
@@ -25,14 +25,14 @@ if (isset($sessUsr)) {
             <h1 style="left:40px"><?= $title ?></h1>
         </header>
         <form method="post">
-            <p class="paragrafo"><?= $subtitle ?> preenchendo o formulário abaixo:</p><br><br>
-            <label for="cadNome"> Nome:<br> </label>
+            <p class="paragrafo"><?= $subtitle ?> by filling out the form below:</p><br><br>
+            <label for="cadNome"> Name:<br> </label>
             <input type="text" name="cadNome" id="cadNome" value="<?= $nome ?>" required><br><br>
             <label for="cadLogin"> Login:<br> </label>
             <input type="text" name="cadLogin" id="cadLogin" value="<?= $login ?>" required><br><br>
-            <label for="cadEmail"> E-mail:<br> </label>
+            <label for="cadEmail"> Email:<br> </label>
             <input type="email" name="cadEmail" id="cadEmail" value="<?= $email ?>" required><br><br>
-            <label for="cadSenha"> Senha:<br> </label>
+            <label for="cadSenha"> Password:<br> </label>
             <input type="password" name="cadSenha" id="cadSenha" value="<?= $senha ?>" required><br><br>
             <input type="hidden" name="actionUsr" value="<?= $action ?>">
             <input type="submit" style="left:30px" value="<?= $actText ?>" />

@@ -1,36 +1,27 @@
-		<section>
-		<article>
-		<header class="head">
-		<h1>Metallica (Black Album) (1991)<h1>
-		<h2>Produzido por: Bob Rock, James Hetfield e Lars Ulrich<h2>
-</header>
-		<img src="<?= BASE_URL ?>/media/discografia/black.jpg" class="album">
-		<p class="paragrafo">Faixas:<br><br>
-	01. Enter Sandman<br>
-02. Sad But True<br>
-03. Holier Than Thou<br>
-04. The Unforgiven<br>
-05. Wherever I May Roam<br>
-06. Don’t Tread On Me<br>
-07. Through The Never<br>
-08. Nothing Else Matters<br>
-09. Of Wolf And Man<br>
-10. The God That Failed<br>
-11. My Friend Of Misery<br><br><br>
-Com a ajuda do produtor Bob Rock, a banda conseguiu neste álbum o som mais cristalino até então. Tudo está completamente audível e o 
-som da bateria é referência para muitas bandas até os dias de hoje. O problema é que com toda essa produção, muito do peso das músicas 
-se perdeu. E não foi só a produção que contribuiu pra isso, as próprias composições já não mostram mais a mesma agressividade dos discos 
-anteriores. Ainda que seja um ótimo disco de Heavy Metal clássico, não mais de Thrash Metal.<br><br>
-A faixa de abertura, “Enter Sandman”, tem um riff hipnótico e pode ser colocada ao lado das melhores músicas da banda. Outras grandes
- composições são “Sad But True”, “Wherever I May Roam”, “Through the Never” e “Of Wolf and Man”.<br><br>
-Neste álbum a banda finalmente cedeu às baladas. A primeira, “The Unforgiven”, é sem dúvidas uma bela música e apesar de lenta, mantém 
-o peso do restante do álbum. Enquanto a outra, “Nothing Else Matters”, desaba de vez na melancolia, uma melodia triste e quase acústica.<br><br>
-Chama a atenção também a evolução de James Hetfield enquanto vocalista. Neste disco, sua voz está bem melhor empostada. Porém, ainda que continue
- com seu timbre característico, também teve leve perda em termos de agressividade.<br><br>
-O “álbum preto”, como é chamado, está longe de ser um disco ruim, muito pelo contrário, aliás. Mas é gerador de imensas polêmicas. Além da banda 
-ter amansado significativamente seu som, se entregou de vez ao mainstream. Foram gravados vídeos-clipe, para nada menos que cinco músicas e o disco 
-vendeu 10 milhões de cópias em todo o mundo. Mas ainda assim é um grande trabalho do grupo.
-<br><br><br>
-	</article>
-	</section>
-	
+<section>
+    <article>
+        <header class="head">
+            <h1>Metallica (Black Album) (1991)</h1>
+            <h2>Produced by: Bob Rock, James Hetfield, and Lars Ulrich</h2>
+        </header>
+        <img src="<?= BASE_URL ?>/media/discografia/black.jpg" class="album">
+        <p class="paragrafo">Tracks:<br><br>
+            01. Enter Sandman<br>
+            02. Sad But True<br>
+            03. Holier Than Thou<br>
+            04. The Unforgiven<br>
+            05. Wherever I May Roam<br>
+            06. Don’t Tread On Me<br>
+            07. Through The Never<br>
+            08. Nothing Else Matters<br>
+            09. Of Wolf And Man<br>
+            10. The God That Failed<br>
+            11. My Friend Of Misery<br><br><br>
+            With the help of producer Bob Rock, the band achieved the clearest sound yet on this album. Everything is completely audible, and the drum sound has been a reference for many bands to this day. The problem is that with all this production, much of the weight of the songs was lost. And it wasn’t just the production that contributed to this; the compositions themselves no longer show the same aggression as previous albums. While it is still a great classic Heavy Metal album, it is no longer Thrash Metal.<br><br>
+            The opening track, “Enter Sandman,” has a hypnotic riff and can be placed alongside the band’s best songs. Other great compositions include “Sad But True,” “Wherever I May Roam,” “Through the Never,” and “Of Wolf and Man.”<br><br>
+            In this album, the band finally gave in to ballads. The first, “The Unforgiven,” is undoubtedly a beautiful song and, despite being slow, maintains the weight of the rest of the album. Meanwhile, “Nothing Else Matters” fully dives into melancholy, with a sad and almost acoustic melody.<br><br>
+            James Hetfield’s evolution as a vocalist is also noteworthy. In this album, his voice is much better positioned. However, even though he maintains his characteristic tone, there is also a slight loss in terms of aggression.<br><br>
+            The “black album,” as it is called, is far from being a bad album, quite the contrary. But it generates immense controversy. Besides the band significantly softening their sound, they fully embraced the mainstream. Five music videos were recorded, and the album sold 10 million copies worldwide. But it is still a great work by the group.
+            <br><br><br>
+    </article>
+</section>

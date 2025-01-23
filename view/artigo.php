@@ -12,7 +12,7 @@ $userDAO = new UsuarioDAO();
 $artID = isset($_GET["sub"]) ? $_GET["sub"] : 0;
 $art = $artDAO->selArtigo($artID);
 if (!$art) {
-    echo "<h1 style='top: 200px;'>Essa página não existe, seu otário</h1>";
+    echo "<h1 style='top: 200px;'>This page does not exist</h1>";
 } else {
     $pars = $parDAO->selParagrafos($art->getId());
     $coms = $comDAO->selComentarios($art->getId());
@@ -22,7 +22,7 @@ if (!$art) {
         <article>
             <header class="head">
                 <h1><?= $art->getNome() ?></h1>
-                <p>Por <?= $userArt->getNome() ?> em <?= date("j/m/Y \à\s H:i", strtotime($art->getData())); ?></p>
+                <p>By <?= $userArt->getNome() ?> on <?= date("j/m/Y \a\t H:i", strtotime($art->getData())); ?></p>
             </header>
             <img src="<?= BASE_URL ?>/media/<?= $art->getImagem() ?>" class="imagens">
             <section class="paragrafo">
@@ -31,30 +31,30 @@ if (!$art) {
                 <?php } ?>
             </section>
             <section class="paragrafo" style="margin-top: -40px">
-                <h1>Comentários:</h1>
+                <h1>Comments:</h1>
                 <?php if (isset($sessUsr)) { ?>
                     <form id="postCom" method="post">
-                        <p class="paragrafo" style="top:0px">Escreva seu comentário:</p><br>
+                        <p class="paragrafo" style="top:0px">Write your comment:</p><br>
                         <textarea style="float: left; margin-top:-15px" rows="2" name="comTexto" cols="70"></textarea>
                         <input type="hidden" name="artigo_id" value="<?= $art->getId() ?>">
-                        <input style="margin-left: 20px" type="submit" value="Enviar">
+                        <input style="margin-left: 20px" type="submit" value="Submit">
                     </form>
                     <?php
                 }
                 if (count($coms) == 0) {
                     ?>
-                    <p>Ainda não existem comentários para este artigo.</p>
+                    <p>There are no comments for this article yet.</p>
                     <?php
                 }
                 foreach ($coms as $key => $row) {
                     $userCom = $userDAO->selUsuario($row->getUsuarioId());
                     ?>
-                    <p><?= $userCom->getNome() ?> em <?= date("j/m/Y \à\s H:i", strtotime($row->getData())); ?> diz: 
+                    <p><?= $userCom->getNome() ?> on <?= date("j/m/Y \a\t H:i", strtotime($row->getData())); ?> says:
                         <?php if (isset($sessUsr) && $sessUsr->getId() == $row->getUsuarioId()) { ?>
-                            <button class="editarCom">Editar</button>
-                            <button class="excluirCom">Excluir</button>
-                            <button class="atualizarCom" style="display: none">Atualizar</button>
-                            <button class="cancelarCom" style="display: none">Cancelar</button>
+                            <button class="editarCom">Edit</button>
+                            <button class="excluirCom">Delete</button>
+                            <button class="atualizarCom" style="display: none">Update</button>
+                            <button class="cancelarCom" style="display: none">Cancel</button>
                         <?php } ?>
                     </p>
                     <form method="post">

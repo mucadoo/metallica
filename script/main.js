@@ -3,10 +3,10 @@ function switchBanner() {
     n = parseInt(n.slice(n.length - 5, n.length - 4));
     var nn = n == 3 ? 1 : n + 1;
     $('#header')
-            .fadeOut(400, function () {
-                $('#header').attr('src', $('#header').attr("src").replace(n, nn));
-            })
-            .fadeIn(400);
+        .fadeOut(400, function () {
+            $('#header').attr('src', $('#header').attr("src").replace(n, nn));
+        })
+        .fadeIn(400);
     setTimeout("switchBanner()", 5000);
 }
 
@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     //Inserir Comentário
     $('#postCom').submit(function () {
-        if (!confirm("Postar comentário?")) {
+        if (!confirm("Post comment?")) {
             return false;
         }
     });
@@ -25,8 +25,8 @@ $(document).ready(function () {
     //Editar comentário
     $('.editarCom').click(function () {
         $(this).parent().next().children("textarea")
-                .prop('disabled', false)
-                .focus();
+            .prop('disabled', false)
+            .focus();
         $(this).parent().next().children("input[name=actionCom]").val("editar");
         $(this).hide();
         $(this).siblings(".excluirCom").hide();
@@ -35,7 +35,7 @@ $(document).ready(function () {
     });
 
     $('.atualizarCom').click(function () {
-        if (confirm("Atualizar comentário?")) {
+        if (confirm("Update comment?")) {
             $(this).parent().next().submit();
         }
     });
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
     //Excluir comentário
     $('.excluirCom').click(function () {
-        if (confirm("Tem certeza que deseja exlcuir este comentário?")) {
+        if (confirm("Are you sure you want to delete this comment?")) {
             $(this).parent().next().children("input[name=actionCom]").val("excluir");
             $(this).parent().next().submit();
         }
@@ -59,10 +59,9 @@ $(document).ready(function () {
     //Adicionar Parágrafo
     $('#addPar').click(function () {
         var seq = parseInt($(this).prevAll("textarea:first").attr("name").slice(1)) + 1;
-        $(this).prev().before('<label for="p' + seq + '">Parágrafo ' + seq + ':</label><br><textarea name="p' + seq + '" id="p' + seq + '" required></textarea><br><br>');
+        $(this).prev().before('<label for="p' + seq + '">Paragraph ' + seq + ':</label><br><textarea name="p' + seq + '" id="p' + seq + '" required></textarea><br><br>');
         return false;
     });
-
 
     //Excluir Parágrafo
     $('#delPar').click(function () {

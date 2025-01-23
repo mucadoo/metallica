@@ -10,9 +10,9 @@ final class Session {
         global $msg;
         if ($userObj) {
             $_SESSION['user'] = serialize($userObj);
-            $msg = "Login efetuado com sucesso!";
+            $msg = "Login successful!";
         } else {
-            $msg = "Nome de usuário ou senha incorretos!";
+            $msg = "Incorrect username or password!";
         }
     }
 

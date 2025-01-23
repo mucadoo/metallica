@@ -1,35 +1,27 @@
-
-		<section>
-		<article>
-		<header class="head">
-		<h1>Load (1996)</h1>
-		<h2>Produzido por: Bob Rock, James Hetfield e Lars Ulrich</h2>
-		</header>
-		<img src="<?= BASE_URL ?>/media/discografia/Load.jpg" class="album">
-		<p class="paragrafo">Faixas:<br><br>
-01. Ain’t My Bitch<br>
-02. 2 X 4<br>
-03. The House Jack Built<br>
-04. Until It Sleeps<br>
-05. King Nothing<br>
-06. Hero Of The Day<br>
-07. Bleeding Me<br>
-08. Cure<br>
-09. Poor Twisted Me<br>
-10. Wasting My Hate<br>
-11. Mama Said<br><br><br>
-Depois de uma imensa turnê mundial do “Black Album”, que durou quase quatro anos. A banda volta a lançar um novo 
-disco somente em 1996. E as polêmicas com “Load” começam cedo. A partir do logo da banda que foi mudado para algo 
-bem menos impactante que o antigo. E infelizmente não paravam por aí. O som do grupo neste disco está totalmente 
-diferente de qualquer outra coisa gravada pela banda até então.<br><br>
-A começar pelas guitarras, que nem de longe lembram aquelas dos discos dos anos 80. Cheias de efeitos de “wah-wah”,
- e nem metade da agressividade dos velhos riffs da banda. Até mesmo a bateria de Lars Ulrich, não tem mais a mesma 
- força e pegada de outros tempos, e muito menos a velocidade.<br><br>
-Mesmo com um álbum tão aquém do potencial do grupo. Alguns destaques podem ser feitos. E por mais incrível que pareça 
-para uma banda como o METALLICA, as melhores músicas aqui são as baladas. No caso, “Until it Sleeps”, “Hero of the Day” e “The Outlaw Torn”.<br><br>
-Enquanto músicas como “Bleeding Me”, “Cure” e “Ronnie” são totalmente descartáveis, para não dizer chatas e/ou cansativas.<br><br>
-Apesar do enorme sucesso comercial, este pode ser considerado um dos piores álbuns da banda. Foi aqui que muitos dos 
-fãs antigos, começaram a torcer o nariz para uma das mais influentes bandas do Heavy Metal.<br><br>
-</article>
-	</section>
-	
+<section>
+    <article>
+        <header class="head">
+            <h1>Load (1996)</h1>
+            <h2>Produced by: Bob Rock, James Hetfield, and Lars Ulrich</h2>
+        </header>
+        <img src="<?= BASE_URL ?>/media/discografia/Load.jpg" class="album">
+        <p class="paragrafo">Tracks:<br><br>
+            01. Ain’t My Bitch<br>
+            02. 2 X 4<br>
+            03. The House Jack Built<br>
+            04. Until It Sleeps<br>
+            05. King Nothing<br>
+            06. Hero Of The Day<br>
+            07. Bleeding Me<br>
+            08. Cure<br>
+            09. Poor Twisted Me<br>
+            10. Wasting My Hate<br>
+            11. Mama Said<br><br><br>
+            After an immense world tour for the “Black Album,” which lasted almost four years, the band released a new album only in 1996. The controversies with “Load” began early, starting with the band logo, which was changed to something much less impactful than the old one. Unfortunately, it didn't stop there. The sound of the group on this album is completely different from anything else recorded by the band until then.<br><br>
+            Starting with the guitars, which are far from resembling those on the albums from the 80s. They are full of “wah-wah” effects and lack the aggression of the band’s old riffs. Even Lars Ulrich’s drumming no longer has the same force and energy as in the past, let alone the speed.<br><br>
+            Even with an album that falls short of the group's potential, some highlights can be made. And as incredible as it may seem for a band like METALLICA, the best songs here are the ballads. In this case, “Until it Sleeps,” “Hero of the Day,” and “The Outlaw Torn.”<br><br>
+            While songs like “Bleeding Me,” “Cure,” and “Ronnie” are completely disposable, not to say boring and/or tiresome.<br><br>
+            Despite the enormous commercial success, this can be considered one of the band’s worst albums. It was here that many old fans began to frown upon one of the most influential Heavy Metal bands.<br><br>
+        </p>
+    </article>
+</section>

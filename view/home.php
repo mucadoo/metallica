@@ -5,13 +5,13 @@ $artDAO = new ArtigoDAO();
 if (isset($_GET['q'])) {
     $arts = $artDAO->searchArtigos($_GET['q']);
     if (count($arts) == 0) {
-        $title = "Nenhum artigo encontrado contendo \"" . $_GET['q'] . "\"";
+        $title = "No articles found containing \"" . $_GET['q'] . "\"";
     } else {
-        $title = "Exibindo artigos contendo \"" . $_GET['q'] . "\"";
+        $title = "Displaying articles containing \"" . $_GET['q'] . "\"";
     }
 } else {
     $arts = $artDAO->selArtigos();
-    $title = "Útimos Artigos";
+    $title = "Latest Articles";
 }
 ?>
 <section>
@@ -32,7 +32,7 @@ if (isset($_GET['q'])) {
                     <header class="titulo">
                         <h1><a href="<?= BASE_URL ?>/artigo/<?= $row->getId() ?>/"><?= $row->getNome() ?></a></h1>
                     </header>
-                    <p><?= $par->getTexto() . ".." ?><a href="<?= BASE_URL ?>/artigo/<?= $row->getId() ?>/"> (leia mais)</a></p>
+                    <p><?= $par->getTexto() . ".." ?><a href="<?= BASE_URL ?>/artigo/<?= $row->getId() ?>/"> (read more)</a></p>
                 </div>
             </article>
             <?php

@@ -1,32 +1,23 @@
-
-		<section>
-		<article>
-		<header class="head">
-		<h1>Master of Puppets (1986)</h1>
-		<h2>Produzido por: Metallica e Flemming Rassmussen</h2>
-		</header>
-		<img src="<?= BASE_URL ?>/media/discografia/masterofpuppets.jpg" class="album">
-		<p class="paragrafo">Faixas:<br><br>
-	01. Battery<br>
-02. Master Of Puppets<br>
-03. The Thing That Should Not Be<br>
-04. Welcome Home (Sanitaruim)<br>
-05. Disposable Heroes<br>
-06. Leper Messiah<br>
-07. Orion<br>
-08. Damage, Inc.<br><br><br><br><br><br>
-Lançado dois anos depois de “Ride the Lightning”, “Master of Puppets” é considerado por muitos como o ápice da banda e também uma 
-obra-prima do Thrash Metal. E não é para menos, com a ajuda do produtor Flemming Rassmussen, a banda conseguiu a melhor sonoridade 
-até então. Aqui as guitarras estão mais pesadas do que nunca, mas mesmo assim soam “limpas”. Mas não só por isso, aqui o grupo mostra-se
- em um nível muito alto como compositores, unindo técnica e peso de uma maneira excepcional.<br><br>
-“Battery” abre o álbum em grande estilo. Um verdadeiro soco nos tímpanos, veloz e pesada, já dando sinais de que se no disco anterior 
-deram vazão à melodia, aqui o negócio era outro, voltaram à agressividade do primeiro álbum. Só que de forma muito mais madura e trabalhada. 
-“Master of Puppets” – a música, “Disposable Heroes” e “Damage, Inc” vão na mesma linha do ataque sonoro começado na primeira faixa. Ainda que a 
-faixa título tenha uma bela quebra rítmica lá pra metade, com solos belíssimos, para depois voltar à agressividade de seu inicio. Simplesmente incrível!<br><br>
-Já “The Thing That Should Not Be” e “Lepper Messiah” são mais cadenciadas, embora extremamente pesadas, outras duas excelentes composições. 
-Enquanto “Welcome Home (Sanitarium)” segue a linha de “Fade to Black” do disco anterior.<br><br>
-“Orion” é outro épico instrumental com mais de oito minutos de duração. Que assim como sua irmã do “Ride the Lightning”, mostra a habilidade dos integrantes com seus respectivos instrumentos.<br><br>
-Este foi o primeiro álbum de Heavy Metal a alcançar a marca de mais de 500 mil discos vendidos. Não é pouca coisa não, e isso sem contar com apoio das rádios ou da TV.<br><br>
-	</article>
-	</section>
-	
+<section>
+    <article>
+        <header class="head">
+            <h1>Master of Puppets (1986)</h1>
+            <h2>Produced by: Metallica and Flemming Rassmussen</h2>
+        </header>
+        <img src="<?= BASE_URL ?>/media/discografia/masterofpuppets.jpg" class="album">
+        <p class="paragrafo">Tracks:<br><br>
+            01. Battery<br>
+            02. Master Of Puppets<br>
+            03. The Thing That Should Not Be<br>
+            04. Welcome Home (Sanitarium)<br>
+            05. Disposable Heroes<br>
+            06. Leper Messiah<br>
+            07. Orion<br>
+            08. Damage, Inc.<br><br><br><br><br><br>
+            Released two years after “Ride the Lightning,” “Master of Puppets” is considered by many to be the band’s pinnacle and a masterpiece of Thrash Metal. And it’s not surprising, with the help of producer Flemming Rassmussen, the band achieved the best sound quality up to that point. Here, the guitars are heavier than ever, yet still sound “clean.” But not only that, the group shows themselves at a very high level as composers, uniting technique and heaviness in an exceptional way.<br><br>
+            “Battery” opens the album in grand style. A true punch to the eardrums, fast and heavy, already signaling that if the previous album gave way to melody, here the game was different, returning to the aggression of the first album. Only in a much more mature and refined way. “Master of Puppets” – the song, “Disposable Heroes” and “Damage, Inc.” follow the same line of sonic attack started in the first track. Even though the title track has a beautiful rhythmic break in the middle, with stunning solos, before returning to its initial aggression. Simply incredible!<br><br>
+            “The Thing That Should Not Be” and “Leper Messiah” are more paced, yet extremely heavy, two other excellent compositions. While “Welcome Home (Sanitarium)” follows the line of “Fade to Black” from the previous album.<br><br>
+            “Orion” is another instrumental epic lasting over eight minutes. Much like its counterpart from “Ride the Lightning,” it showcases the members’ skill with their respective instruments.<br><br>
+            This was the first Heavy Metal album to reach over 500,000 copies sold. That’s no small feat, and without any support from radio or TV.<br><br>
+    </article>
+</section>

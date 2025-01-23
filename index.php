@@ -17,6 +17,6 @@ $page = "view/" . str_replace("-", "/", $page) . ".php";
 if (file_exists($page)) {
     include $page;
 } else {
-    echo "<h1>Deu erro, seu troxa</h1>";
+    echo "<h1>An error occurred</h1>";
 }
 include "view/footer.php";
