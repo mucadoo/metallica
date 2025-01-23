@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    ErrorDocument 400 /metallica/error/400/
+    ErrorDocument 401 /metallica/error/401/
+    ErrorDocument 403 /metallica/error/403/
+    ErrorDocument 404 /metallica/error/404/
+    ErrorDocument 500 /metallica/error/500/
+    RewriteEngine On
+    RewriteRule ^([a-z0-9-_]+)/?$ ?page=$1 [NC,L]
+    RewriteRule ^([a-z0-9-_]+)/([0-9]+)/?$ ?page=$1&sub=$2 [NC,L]
+</IfModule>
