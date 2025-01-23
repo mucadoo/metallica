@@ -4,7 +4,7 @@
     <meta name="description" content="Home of the Metallica website">
     <meta name="keywords" content="Metallica, metallica, Home, James Hetfield, Kirk Hammet, Robert Trujillo, Lars Ulrich">
     <meta charset="utf-8">
-    <title>Metallica Brazil</title>
+    <title>Metallica Fan Hub</title>
     <?php
     if (strpos($page, "biografia") !== false) {
         $css = "biografia";
