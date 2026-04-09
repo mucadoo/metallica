@@ -69,9 +69,6 @@ The MySQL database will be accessible on `localhost:3306`.
 *   `.gitignore`: Specifies intentionally untracked files to ignore.
 *   `.htaccess`: Apache HTTP Server configuration file (if applicable).
 
-## Usage
-(To be filled in based on how to interact with the application)
-
 ## Contributing
 Contributions are welcome! Please follow these steps:
 1.  Fork the repository.
@@ -80,6 +77,3 @@ Contributions are welcome! Please follow these steps:
 4.  Commit your changes (`git commit -m 'Add some feature'`).
 5.  Push to the branch (`git push origin feature/your-feature-name`).
 6.  Open a Pull Request.
-
-## License
-(To be filled in, e.g., MIT, Apache 2.0, etc.)
